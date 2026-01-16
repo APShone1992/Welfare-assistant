@@ -8,7 +8,7 @@
   },
   {
     "question": "How can I contact support?",
-    "answer": "Email us at mailto:support@example.comsupport@example.com</a> or call <b>01234 567890</b>.",
+    "answer": "Email us at :support@example.comsupport@example.com</a> or call <b>01234 567890</b>.",
     "synonyms": ["Support email", "Customer service", "Help contact"],
     "tags": ["support", "email", "phone", "contact"]
   },
