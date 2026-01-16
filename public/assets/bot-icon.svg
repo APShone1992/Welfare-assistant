@@ -1,6 +1,6 @@
-<svg width="48" height="48" viewBox="0 0 24 24" fill="#0078ff" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bot icon">
-  <circle cx="12" cy="12" r="10"/>
-  <circle cx="9" cy="10" r="2" fill="white"/>
-  <circle cx="15" cy="10" r="2" fill="white"/>
-  <rect x="7" y="14" width="10" height="2" fill="white" rx="1"/>
+
+<!-- Kelly Group logo embedded as image in SVG, sized like the old icon -->
+<svg class="bot-avatar" width="48" height="48" viewBox="0 0 24 24"
+     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kelly Group">
+  public/assets/kelly-logo.png
 </svg>
