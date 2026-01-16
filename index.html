@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Welfare Support Chat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Correct path to CSS -->
+  <link rel="stylesheet" href="public/chat.css" />
+</head>
+<body>
+
+  <div class="chat-container">
+    <header class="chat-header">
+      <img src="public/assets/bot-icon.svg" alt="" class="bot-avatar" />
+      <h1>Welfare Support</h1>
+    </header>
+
+    <div id="chatWindow" class="chat-window" aria-live="polite" aria-atomic="false"></div>
+
+    <div class="input-area">
+      <input
+        id="chatInput"
+        type="text"
+        placeholder="Ask a question..."
+        autocomplete="off"
+        aria-label="Ask a question"
+      />
+      <button id="sendBtn" type="button">Send</button>
+    </div>
+  </div>
+
+  <!-- Correct path to JS -->
+  <script src="public/chat.js"></script>
+</body>
+</html>
