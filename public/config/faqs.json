@@ -1,21 +1,45 @@
-
-[
-  {
+{
     "question": "What are your opening times?",
-    "answer": "We’re open <b>Monday–Friday, 8:30–17:00</b>.",
-    "synonyms": ["When do you open?", "Business hours", "What time are you open?"],
-    "tags": ["hours", "open", "schedule"]
+    "answer": "We\u2019re open &lt;b&gt;Monday\u2013Friday, 8:30\u201317:00&lt;/b&gt;.",
+    "synonyms": [
+      "When do you open?",
+      "Business hours",
+      "What time are you open?"
+    ],
+    "tags": [
+      "hours",
+      "open",
+      "schedule"
+    ]
   },
   {
     "question": "How can I contact support?",
-    "answer": "Email us at :support@example.comsupport@example.com</a> or call <b>01234 567890</b>.",
-    "synonyms": ["Support email", "Customer service", "Help contact"],
-    "tags": ["support", "email", "phone", "contact"]
+    "answer": "Email us at &lt;a href='mailto:support@example.com'&gt;support@example.com&lt;/a&gt; or call &lt;b&gt;01234 567890&lt;/b&gt;.",
+    "synonyms": [
+      "Support email",
+      "Customer service",
+      "Help contact"
+    ],
+    "tags": [
+      "support",
+      "email",
+      "phone",
+      "contact"
+    ]
   },
   {
     "question": "Where are you located?",
-    "answer": "We’re based in <b>Manchester, UK</b>. Visits by appointment.",
-    "synonyms": ["Address", "Office location", "Where is your office?"],
-    "tags": ["address", "map", "location", "office"]
+    "answer": "We\u2019re based in &lt;b&gt;Manchester, UK&lt;/b&gt;. Visits by appointment.",
+    "synonyms": [
+      "Address",
+      "Office location",
+      "Where is your office?"
+    ],
+    "tags": [
+      "address",
+      "map",
+      "location",
+      "office"
+    ]
   }
 ]
