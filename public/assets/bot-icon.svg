@@ -1,6 +1,13 @@
-<svg width="48" height="48" viewBox="0 0 24 24" fill="#0078ff" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bot icon">
-  <circle cx="12" cy="12" r="10"/>
-  <circle cx="9" cy="10" r="2" fill="white"/>
-  <circle cx="15" cy="10" r="2" fill="white"/>
-  <rect x="7" y="14" width="10" height="2" fill="white" rx="1"/>
-</svg>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="48" height="48" viewBox="0 0 48 48"
+  role="img" aria-label="Bot icon">
+  <!-- Make sure the file name and case match exactly: bot-icon.png -->
+  <!-- Some renderers accept href, some require xlink:href. Keep both. -->
+  <image
+    href="./bot-icon.png"
+    xlink:href="./bot-icon.png"
+    x="0
