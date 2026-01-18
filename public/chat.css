@@ -1,3 +1,4 @@
+
 :root{
   --blue: #0078ff;
   --blue-600: #005fcc;
@@ -42,10 +43,32 @@ body {
   color: #fff;
 }
 
+/* -------------------------------------------------------
+   Bot avatar: CSS background image
+   If your CSS file is in /css/styles.css, change the URL to:
+   background-image: url("../assets/Bot-icon.png");
+-------------------------------------------------------- */
 .bot-avatar {
   width: 32px;
   height: 32px;
+  background-image: url("assets/Bot-icon.png");
+  background-size: cover;         /* fills the square; switch to 'contain' if you want full icon visible with padding */
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;                 /* removes inline-gap behavior */
+  border-radius: 6px;             /* optional rounding */
+  flex: 0 0 32px;                 /* keep fixed size in header layout */
 }
+
+/* If you ever swap to an <img>, these keep it crisp and square:
+.bot-avatar {
+  width: 32px;
+  height: 32px;
+  display: block;
+  object-fit: cover;
+  border-radius: 6px;
+}
+*/
 
 .chat-header h1 {
   margin: 0;
@@ -145,3 +168,5 @@ body {
     border-radius: 0;
   }
 }
+``
+
