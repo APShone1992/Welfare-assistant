@@ -1,1 +1,6 @@
-
+&lt;svg width="48" height="48" viewBox="0 0 24 24" fill="#0078ff" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bot icon"&gt;
+  &lt;circle cx="12" cy="12" r="10"/&gt;
+  &lt;circle cx="9" cy="10" r="2" fill="white"/&gt;
+  &lt;circle cx="15" cy="10" r="2" fill="white"/&gt;
+  &lt;rect x="7" y="14" width="10" height="2" fill="white" rx="1"/&gt;
+&lt;/svg&gt;
