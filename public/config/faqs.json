@@ -1,7 +1,6 @@
 
 [
-  {
-    "question": "What are your opening times?",
+  {"question": "What are your opening times?",
     "answer": "We're open <b>Monday-Friday, 8:30-17:00</b>.",
     "synonyms": [
       "When do you open?",
@@ -10,32 +9,26 @@
       "What time do you close?",
       "Opening hours",
       "Open times",
-      "Hours today"
-    ],
-    "tags": ["hours", "open", "schedule"]
-  },
-  {
-    "question": "How can I contact support?",
+      "Hours today"],
+    "tags": ["hours", "open", "schedule"]},
+  
+  { "question": "How can I contact support?",
     "answer": "Email us at  <a href='mailto:support@Kelly.co.uk'>support@Kelly.co.uk</a>  or call <b>01234 567890</b>.",
     "synonyms": [
       "Support email",
       "Customer service",
       "Help contact",
       "Support phone",
-      "Contact details"
-    ],
-    "tags": ["support", "email", "phone", "contact"]
-  },
-  {
-    "question": "Where are you located?",
+      "Contact details"],
+    "tags": ["support", "email", "phone", "contact"]},
+  
+  {"question": "Where are you located?",
     "answer": "We're based in <b>Nunteaton, UK</b>. Visits by appointment.",
     "synonyms": [
       "Address",
       "Office location",
       "Where is your office?",
       "Company address",
-      "Office address"
-    ],
-    "tags": ["address", "map", "location", "office"]
-  }
+      "Office address"],
+    "tags": ["address", "map", "location", "office"]}
 ]
