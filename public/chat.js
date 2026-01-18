@@ -7,7 +7,7 @@ const SETTINGS = {
   topSuggestions: 3,
   boostSubstring: 0.12,
   greeting:
-    "Hi! I’m <b>Welfare Support</b>. Ask me about opening times, how to contact support, or where we’re located."
+    "Hi! I’m the <b>Welfare Support Assistant</b>. Ask me about opening times, how to contact support, or where we’re located."
 };
 
 let FAQS = [];
