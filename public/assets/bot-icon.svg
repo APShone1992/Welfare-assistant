@@ -5,9 +5,8 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   width="48" height="48" viewBox="0 0 48 48"
   role="img" aria-label="Bot icon">
-  <!-- Make sure the file name and case match exactly: bot-icon.png -->
-  <!-- Some renderers accept href, some require xlink:href. Keep both. -->
   <image
-    href="./bot-icon.png"
-    xlink:href="./bot-icon.png"
-    x="0
+    x="0" y="0" width="48" height="48"
+    href="/assets/bot-icon.png"
+    xlink:href="/assets/bot-icon.png"
+   
