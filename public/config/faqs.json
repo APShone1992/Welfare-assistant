@@ -1,34 +1,51 @@
 
 [
+  {"question": "Raise a request (create a ticket)",
+    "answer": "To raise a request, click this topic or type <b>raise a request</b>. I’ll ask a few quick questions and then create an email you can send to support (with your chat transcript included).",
+    "synonyms": ["create a ticket","open a ticket","log a ticket","submit a request","raise a request","support ticket","ticket"],
+    "canonicalKeywords": ["ticket","request","support","help"],
+    "category": "actions",
+    "followUps": ["How can I contact support?","What are your opening times?"]},
+  
+  {"question": "Get directions to my closest depot",
+    "answer": "Ask <b>closest depot</b> and I’ll guide you (you can use GPS or select a city).",
+    "synonyms": ["closest depot","how far depot","distance to depot","depot directions"],
+    "canonicalKeywords": ["depot","closest","distance","directions"],
+    "category": "actions",
+    "followUps": ["Where are you located?","Is there parking?"]},
+  
   {"question": "What are your opening times?",
-    "answer": "We're open <b>Monday-Friday, 8:30-17:00</b>.",
-    "synonyms": [
-      "When do you open?",
-      "Business hours",
-      "What time are you open?",
-      "What time do you close?",
-      "Opening hours",
-      "Open times",
-      "Hours today"],
-    "tags": ["hours", "open", "schedule"]},
+    "answer": "We’re open <b>Monday–Friday, 8:30–17:00</b> (UK time). We’re <b>closed on weekends and bank holidays</b>.",
+    "synonyms": ["opening times","opening hours","office hours","business hours","when do you open","what time do you open","what time do you close"],
+    "canonicalKeywords": ["hours","availability"],
+    "category": "opening",
+    "followUps": ["Is anyone available now?","Are you open on bank holidays?"]},
+  
+  {"question": "Are you open on bank holidays?",
+    "answer": "<b>No — we are not open on bank holidays.</b>",
+    "synonyms": ["bank holiday","bank holidays","open on bank holidays","closed on bank holidays"],
+    "canonicalKeywords": ["bank holiday","open","closed"],
+    "category": "opening",
+    "followUps": ["What are your opening times?","Is anyone available now?"]},
+  
+  {"question": "Is anyone available now?",
+    "answer": "Ask <b>is anyone available</b> to check if we’re open right now (UK time).",
+    "synonyms": ["is anyone available","anyone available","available now","open now","are you open now"],
+    "canonicalKeywords": ["available","open"],
+    "category": "opening",
+    "followUps": ["What are your opening times?","How can I contact support?"]},
   
   { "question": "How can I contact support?",
-    "answer": "Email us at  <a href='mailto:support@Kelly.co.uk'>support@Kelly.co.uk</a>  or call <b>01234 567890</b>.",
-    "synonyms": [
-      "Support email",
-      "Customer service",
-      "Help contact",
-      "Support phone",
-      "Contact details"],
-    "tags": ["support", "email", "phone", "contact"]},
+    "answer": "You can email <a href=\"mailto:support@Kelly.co.uk\">support@Kelly.co.uk</a> or call <b>01234 567890</b>.",
+    "synonyms": ["support email","customer service","help contact","contact details","phone number"],
+    "canonicalKeywords": ["email","phone","contact"],
+    "category": "support",
+    "followUps": ["Raise a request (create a ticket)"]},
   
   {"question": "Where are you located?",
-    "answer": "We're based in <b>Nunteaton, UK</b>. Visits by appointment.",
-    "synonyms": [
-      "Address",
-      "Office location",
-      "Where is your office?",
-      "Company address",
-      "Office address"],
-    "tags": ["address", "map", "location", "office"]}
+    "answer": "We’re based in <b>Nuneaton, UK</b>. Visits are by appointment only.",
+    "synonyms": ["address","office location","where is your office","location"],
+    "canonicalKeywords": ["address","map","office"],
+    "category": "general",
+    "followUps": ["Get directions to my closest depot"]}
 ]
