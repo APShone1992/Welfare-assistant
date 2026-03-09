@@ -1,8 +1,8 @@
 
 [
-  {"question": "Raise a request (create a ticket)",
+  {"question": "Raise a request ",
     "answer": "To raise a request, click this topic or type <b>raise a request</b>. I’ll ask a few quick questions and then create an email you can send to support (with your chat transcript included).",
-    "synonyms": ["create a ticket","open a ticket","log a ticket","submit a request","raise a request","support ticket","ticket"],
+    "synonyms": ["create a request","open a request","log a request","submit a request","raise a request","support request"],
     "canonicalKeywords": ["ticket","request","support","help"],
     "category": "actions",
     "followUps": ["How can I contact support?","What are your opening times?"]},
