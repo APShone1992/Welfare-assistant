@@ -40,7 +40,7 @@
     "synonyms": ["support email","customer service","help contact","contact details","phone number"],
     "canonicalKeywords": ["email","phone","contact"],
     "category": "support",
-    "followUps": ["Raise a request (create a ticket)"]},
+    "followUps": ["Raise a request"]},
   
   {"question": "Where are you located?",
     "answer": "We’re based in <b>Nuneaton, UK</b>. Visits are by appointment only.",
